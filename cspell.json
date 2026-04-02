@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "useGitignore": true,
+  "ignorePaths": [
+    "end2end/node_modules/**",
+    "end2end/playwright-report/**",
+    "end2end/test-results/**"
+  ],
+  "words": [
+    "bindgen",
+    "browserlist",
+    "browserslist",
+    "cdylib",
+    "clippy",
+    "codegen",
+    "codepaths",
+    "hydrate",
+    "leptos",
+    "rlib",
+    "rustc",
+    "rustfmt",
+    "rustup",
+    "serde",
+    "ssr",
+    "stylesheet",
+    "Stylesheet",
+    "tachy",
+    "Tombi",
+    "viewports",
+    "wasm"
+  ]
+}
