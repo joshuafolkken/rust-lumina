@@ -1,0 +1,50 @@
+[tools]
+node = "25.9.0"
+rust = "1.94.1"
+"cargo:typos-cli" = "1.45.0"
+cspell = "9.7.0"
+tombi = "0.9.13"
+
+[tasks.check]
+description = "cargo check（既定 features）"
+run = "cargo check"
+
+[tasks.build]
+description = "SSR + WASM をビルド"
+run = "cargo leptos build"
+
+[tasks.dev]
+description = "開発サーバー（cargo leptos watch）※ `mise watch` ではなく `mise run dev`"
+run = "cargo leptos watch"
+
+[tasks.serve]
+description = "ビルド成果物を配信（watch なし）"
+run = "cargo leptos serve"
+
+[tasks.test]
+description = "cargo-leptos 経由のテスト"
+run = "cargo leptos test"
+
+[tasks.e2e]
+description = "サーバー起動 + Playwright E2E"
+run = "cargo leptos end-to-end"
+
+[tasks.fmt]
+description = "rustfmt"
+run = "cargo fmt"
+
+[tasks.clippy]
+description = "clippy（全ターゲット）"
+run = "cargo clippy --all-targets"
+
+[tasks.typos]
+description = "typos でスペルチェック"
+run = "typos"
+
+[tasks.cspell]
+description = "cspell でスペルチェック（辞書ベース）"
+run = "cspell lint ."
+
+[tasks.tombi]
+description = "Tombi で TOML（Cargo.toml 等）を lint"
+run = "tombi check ."
