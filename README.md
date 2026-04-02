@@ -27,6 +27,9 @@ cd rust-lumina
 ```
 
 to go to your newly created project.
+
+[mise](https://mise.jdx.dev) + `mise.toml`: `curl https://mise.run | sh` then `mise install` in this repo (see [install](https://mise.jdx.dev/installing-mise.html) for Windows / Homebrew).
+
 Feel free to explore the project structure, but the best place to start with your application code is in `src/app.rs`.
 Additionally, Cargo.toml may need updating as new versions of the dependencies are released, especially if things are not working after a `cargo update`.
 

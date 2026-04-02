@@ -3,6 +3,21 @@
 		"streetsidesoftware.code-spell-checker",
 		"tekumara.typos-vscode",
 		"hverlin.mise-vscode",
-		"tombi-toml.tombi"
+		"tombi-toml.tombi",
+		"ms-playwright.playwright",
+		"rust-lang.rust-analyzer",
+		"anthropic.claude-code",
+		"coderabbit.coderabbit-vscode",
+		"naumovs.color-highlight",
+		"usernamehw.errorlens",
+		"mhutchie.git-graph",
+		"pkief.material-icon-theme",
+		"stylelint.vscode-stylelint",
+		"esbenp.prettier-vscode",
+		"serayuzgur.crates",
+		"vadimcn.vscode-lldb",
+		"redhat.vscode-yaml",
+		"davidanson.vscode-markdownlint",
+		"editorconfig.editorconfig"
 	]
 }
