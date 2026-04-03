@@ -1,6 +1,6 @@
 [tools]
 node = "25.9.0"
-rust = "1.94.1"
+rust = { version = "1.94.1", targets = "wasm32-unknown-unknown" }
 "cargo:typos-cli" = "1.45.0"
 cspell = "9.7.0"
 tombi = "0.9.13"
