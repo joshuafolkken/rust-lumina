@@ -5,9 +5,11 @@
   "ignorePaths": [
     "end2end/node_modules/**",
     "end2end/playwright-report/**",
-    "end2end/test-results/**"
+    "end2end/test-results/**",
+    "pnpm-lock.yaml"
   ],
   "words": [
+    "aikidosec",
     "bindgen",
     "browserlist",
     "browserslist",
@@ -15,9 +17,13 @@
     "clippy",
     "codegen",
     "codepaths",
+    "cooldown",
+    "govet",
     "hydrate",
+    "ianvs",
     "leptos",
     "rlib",
+    "rubocop",
     "rustc",
     "rustfmt",
     "rustup",
