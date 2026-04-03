@@ -13,6 +13,10 @@ run = "cargo check"
 description = "SSR + WASM をビルド"
 run = "cargo leptos build"
 
+[tasks.build-release]
+description = "SSR + WASM をリリースモードでビルド"
+run = "cargo leptos build --release"
+
 [tasks.dev]
 description = "開発サーバー（cargo leptos watch）※ `mise watch` ではなく `mise run dev`"
 run = "cargo leptos watch"
@@ -20,6 +24,10 @@ run = "cargo leptos watch"
 [tasks.serve]
 description = "ビルド成果物を配信（watch なし）"
 run = "cargo leptos serve"
+
+[tasks.serve-release]
+description = "リリースモードでビルド成果物を配信"
+run = "cargo leptos serve --release"
 
 [tasks.test]
 description = "cargo-leptos 経由のテスト"
